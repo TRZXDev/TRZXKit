@@ -6,17 +6,10 @@
 //  Copyright © 2016年 com.mackun. All rights reserved.
 //
 
-#ifndef TRZXKitHeader_h
-#define TRZXKitHeader_h
+#import <Foundation/Foundation.h>
+
 
 #import "UIImage+TRZX.h"
 #import "UIColor+TRZX.h"
 #import "UIColor+APP.h"
 #import "UIViewController+APP.h"
-
-
-
-
-
-
-#endif /* TRZXKitHeader_h */
