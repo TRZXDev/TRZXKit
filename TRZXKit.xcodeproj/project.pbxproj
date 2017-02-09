@@ -39,7 +39,6 @@
 		713832F61E4C1BEB001D74B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		713832F91E4C1BEB001D74B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		713832FB1E4C1BEB001D74B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		713833021E4C1C02001D74B3 /* TRZXKitHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXKitHeader.h; sourceTree = "<group>"; };
 		713833431E4C2481001D74B3 /* MainTabBar0ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar0ViewController.h; sourceTree = "<group>"; };
 		713833441E4C2481001D74B3 /* MainTabBar0ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar0ViewController.m; sourceTree = "<group>"; };
 		713833451E4C2481001D74B3 /* MainTabBar1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar1ViewController.h; sourceTree = "<group>"; };
@@ -128,7 +127,6 @@
 		713833011E4C1C02001D74B3 /* TRZXKit */ = {
 			isa = PBXGroup;
 			children = (
-				713833021E4C1C02001D74B3 /* TRZXKitHeader.h */,
 				713833891E4C3D69001D74B3 /* UIColor+APP.h */,
 				7138338A1E4C3D69001D74B3 /* UIColor+APP.m */,
 				7138338B1E4C3D69001D74B3 /* UIColor+TRZX.h */,
