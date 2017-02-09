@@ -12,18 +12,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.public_header_files = 'TRZXKit/TRZXKit/TRZXKitHeader.h'
   s.source_files = 'TRZXKit/TRZXKit/*.{h,m}'
-
-
-  s.subspec 'UIColor' do |ss|
-    ss.source_files = 'TRZXKit/TRZXKit/UIColor/*.{h,m}'
-  end
-
-  s.subspec 'UIImage' do |ss|
-    ss.source_files = 'TRZXKit/TRZXKit/UIImage/*.{h,m}'
-  end
-
-  s.subspec 'UIViewController' do |ss|
-    ss.source_files = 'TRZXKit/TRZXKit/UIViewController/*.{h,m}'
-  end
   
 end

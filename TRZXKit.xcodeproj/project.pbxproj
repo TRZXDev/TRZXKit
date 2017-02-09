@@ -12,13 +12,6 @@
 		713832F51E4C1BEB001D74B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713832F31E4C1BEB001D74B3 /* Main.storyboard */; };
 		713832F71E4C1BEB001D74B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713832F61E4C1BEB001D74B3 /* Assets.xcassets */; };
 		713832FA1E4C1BEB001D74B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713832F81E4C1BEB001D74B3 /* LaunchScreen.storyboard */; };
-		7138331A1E4C1C02001D74B3 /* UIColor+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833071E4C1C02001D74B3 /* UIColor+TRZX.m */; };
-		7138331B1E4C1C02001D74B3 /* UIImage+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 7138330A1E4C1C02001D74B3 /* UIImage+TRZX.m */; };
-		7138331C1E4C1C02001D74B3 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7138330E1E4C1C02001D74B3 /* UINavigationController+FDFullscreenPopGesture.m */; };
-		7138331D1E4C1C02001D74B3 /* UINavigationController+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833101E4C1C02001D74B3 /* UINavigationController+TRZX.m */; };
-		7138331E1E4C1C02001D74B3 /* UITabBarController+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833121E4C1C02001D74B3 /* UITabBarController+TRZX.m */; };
-		713833201E4C1C02001D74B3 /* UIViewController+BackButtonItemTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833161E4C1C02001D74B3 /* UIViewController+BackButtonItemTitle.m */; };
-		713833211E4C1C02001D74B3 /* UIViewController+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833181E4C1C02001D74B3 /* UIViewController+TRZX.m */; };
 		713833511E4C2481001D74B3 /* MainTabBar0ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833441E4C2481001D74B3 /* MainTabBar0ViewController.m */; };
 		713833521E4C2481001D74B3 /* MainTabBar1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833461E4C2481001D74B3 /* MainTabBar1ViewController.m */; };
 		713833531E4C2481001D74B3 /* MainTabBar2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833481E4C2481001D74B3 /* MainTabBar2ViewController.m */; };
@@ -26,8 +19,15 @@
 		713833551E4C2481001D74B3 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7138334C1E4C2481001D74B3 /* MainTabBarController.m */; };
 		713833561E4C2481001D74B3 /* TRZXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7138334E1E4C2481001D74B3 /* TRZXNavigationController.m */; };
 		713833571E4C2481001D74B3 /* TRZXProjectListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833501E4C2481001D74B3 /* TRZXProjectListViewController.m */; };
-		713833851E4C34A3001D74B3 /* UIColor+APP.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833841E4C34A3001D74B3 /* UIColor+APP.m */; };
-		713833881E4C34A9001D74B3 /* UIViewController+APP.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833871E4C34A9001D74B3 /* UIViewController+APP.m */; };
+		713833991E4C3D69001D74B3 /* UIColor+APP.m in Sources */ = {isa = PBXBuildFile; fileRef = 7138338A1E4C3D69001D74B3 /* UIColor+APP.m */; };
+		7138339A1E4C3D69001D74B3 /* UIColor+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 7138338C1E4C3D69001D74B3 /* UIColor+TRZX.m */; };
+		7138339B1E4C3D69001D74B3 /* UIImage+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 7138338E1E4C3D69001D74B3 /* UIImage+TRZX.m */; };
+		7138339C1E4C3D69001D74B3 /* UINavigationController+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833901E4C3D69001D74B3 /* UINavigationController+TRZX.m */; };
+		7138339D1E4C3D69001D74B3 /* UITabBarController+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833921E4C3D69001D74B3 /* UITabBarController+TRZX.m */; };
+		7138339E1E4C3D69001D74B3 /* UIViewController+APP.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833941E4C3D69001D74B3 /* UIViewController+APP.m */; };
+		7138339F1E4C3D69001D74B3 /* UIViewController+BackButtonItemTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833961E4C3D69001D74B3 /* UIViewController+BackButtonItemTitle.m */; };
+		713833A01E4C3D69001D74B3 /* UIViewController+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833981E4C3D69001D74B3 /* UIViewController+TRZX.m */; };
+		713833A31E4C3D81001D74B3 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833A21E4C3D81001D74B3 /* UINavigationController+FDFullscreenPopGesture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,20 +40,6 @@
 		713832F91E4C1BEB001D74B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		713832FB1E4C1BEB001D74B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		713833021E4C1C02001D74B3 /* TRZXKitHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXKitHeader.h; sourceTree = "<group>"; };
-		713833061E4C1C02001D74B3 /* UIColor+TRZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TRZX.h"; sourceTree = "<group>"; };
-		713833071E4C1C02001D74B3 /* UIColor+TRZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TRZX.m"; sourceTree = "<group>"; };
-		713833091E4C1C02001D74B3 /* UIImage+TRZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TRZX.h"; sourceTree = "<group>"; };
-		7138330A1E4C1C02001D74B3 /* UIImage+TRZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TRZX.m"; sourceTree = "<group>"; };
-		7138330D1E4C1C02001D74B3 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
-		7138330E1E4C1C02001D74B3 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
-		7138330F1E4C1C02001D74B3 /* UINavigationController+TRZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+TRZX.h"; sourceTree = "<group>"; };
-		713833101E4C1C02001D74B3 /* UINavigationController+TRZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+TRZX.m"; sourceTree = "<group>"; };
-		713833111E4C1C02001D74B3 /* UITabBarController+TRZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+TRZX.h"; sourceTree = "<group>"; };
-		713833121E4C1C02001D74B3 /* UITabBarController+TRZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+TRZX.m"; sourceTree = "<group>"; };
-		713833151E4C1C02001D74B3 /* UIViewController+BackButtonItemTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonItemTitle.h"; sourceTree = "<group>"; };
-		713833161E4C1C02001D74B3 /* UIViewController+BackButtonItemTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonItemTitle.m"; sourceTree = "<group>"; };
-		713833171E4C1C02001D74B3 /* UIViewController+TRZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TRZX.h"; sourceTree = "<group>"; };
-		713833181E4C1C02001D74B3 /* UIViewController+TRZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TRZX.m"; sourceTree = "<group>"; };
 		713833431E4C2481001D74B3 /* MainTabBar0ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar0ViewController.h; sourceTree = "<group>"; };
 		713833441E4C2481001D74B3 /* MainTabBar0ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar0ViewController.m; sourceTree = "<group>"; };
 		713833451E4C2481001D74B3 /* MainTabBar1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar1ViewController.h; sourceTree = "<group>"; };
@@ -68,10 +54,24 @@
 		7138334E1E4C2481001D74B3 /* TRZXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXNavigationController.m; sourceTree = "<group>"; };
 		7138334F1E4C2481001D74B3 /* TRZXProjectListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectListViewController.h; sourceTree = "<group>"; };
 		713833501E4C2481001D74B3 /* TRZXProjectListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectListViewController.m; sourceTree = "<group>"; };
-		713833831E4C34A3001D74B3 /* UIColor+APP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+APP.h"; sourceTree = "<group>"; };
-		713833841E4C34A3001D74B3 /* UIColor+APP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+APP.m"; sourceTree = "<group>"; };
-		713833861E4C34A9001D74B3 /* UIViewController+APP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+APP.h"; sourceTree = "<group>"; };
-		713833871E4C34A9001D74B3 /* UIViewController+APP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+APP.m"; sourceTree = "<group>"; };
+		713833891E4C3D69001D74B3 /* UIColor+APP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+APP.h"; sourceTree = "<group>"; };
+		7138338A1E4C3D69001D74B3 /* UIColor+APP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+APP.m"; sourceTree = "<group>"; };
+		7138338B1E4C3D69001D74B3 /* UIColor+TRZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TRZX.h"; sourceTree = "<group>"; };
+		7138338C1E4C3D69001D74B3 /* UIColor+TRZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TRZX.m"; sourceTree = "<group>"; };
+		7138338D1E4C3D69001D74B3 /* UIImage+TRZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TRZX.h"; sourceTree = "<group>"; };
+		7138338E1E4C3D69001D74B3 /* UIImage+TRZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TRZX.m"; sourceTree = "<group>"; };
+		7138338F1E4C3D69001D74B3 /* UINavigationController+TRZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+TRZX.h"; sourceTree = "<group>"; };
+		713833901E4C3D69001D74B3 /* UINavigationController+TRZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+TRZX.m"; sourceTree = "<group>"; };
+		713833911E4C3D69001D74B3 /* UITabBarController+TRZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+TRZX.h"; sourceTree = "<group>"; };
+		713833921E4C3D69001D74B3 /* UITabBarController+TRZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+TRZX.m"; sourceTree = "<group>"; };
+		713833931E4C3D69001D74B3 /* UIViewController+APP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+APP.h"; sourceTree = "<group>"; };
+		713833941E4C3D69001D74B3 /* UIViewController+APP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+APP.m"; sourceTree = "<group>"; };
+		713833951E4C3D69001D74B3 /* UIViewController+BackButtonItemTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonItemTitle.h"; sourceTree = "<group>"; };
+		713833961E4C3D69001D74B3 /* UIViewController+BackButtonItemTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonItemTitle.m"; sourceTree = "<group>"; };
+		713833971E4C3D69001D74B3 /* UIViewController+TRZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TRZX.h"; sourceTree = "<group>"; };
+		713833981E4C3D69001D74B3 /* UIViewController+TRZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TRZX.m"; sourceTree = "<group>"; };
+		713833A11E4C3D81001D74B3 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		713833A21E4C3D81001D74B3 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,58 +129,26 @@
 			isa = PBXGroup;
 			children = (
 				713833021E4C1C02001D74B3 /* TRZXKitHeader.h */,
-				713833031E4C1C02001D74B3 /* UIColor */,
-				713833081E4C1C02001D74B3 /* UIImage */,
-				7138330B1E4C1C02001D74B3 /* UIViewController */,
+				713833891E4C3D69001D74B3 /* UIColor+APP.h */,
+				7138338A1E4C3D69001D74B3 /* UIColor+APP.m */,
+				7138338B1E4C3D69001D74B3 /* UIColor+TRZX.h */,
+				7138338C1E4C3D69001D74B3 /* UIColor+TRZX.m */,
+				7138338D1E4C3D69001D74B3 /* UIImage+TRZX.h */,
+				7138338E1E4C3D69001D74B3 /* UIImage+TRZX.m */,
+				713833931E4C3D69001D74B3 /* UIViewController+APP.h */,
+				713833941E4C3D69001D74B3 /* UIViewController+APP.m */,
+				713833971E4C3D69001D74B3 /* UIViewController+TRZX.h */,
+				713833981E4C3D69001D74B3 /* UIViewController+TRZX.m */,
+				713833951E4C3D69001D74B3 /* UIViewController+BackButtonItemTitle.h */,
+				713833961E4C3D69001D74B3 /* UIViewController+BackButtonItemTitle.m */,
+				713833911E4C3D69001D74B3 /* UITabBarController+TRZX.h */,
+				713833921E4C3D69001D74B3 /* UITabBarController+TRZX.m */,
+				713833A11E4C3D81001D74B3 /* UINavigationController+FDFullscreenPopGesture.h */,
+				713833A21E4C3D81001D74B3 /* UINavigationController+FDFullscreenPopGesture.m */,
+				7138338F1E4C3D69001D74B3 /* UINavigationController+TRZX.h */,
+				713833901E4C3D69001D74B3 /* UINavigationController+TRZX.m */,
 			);
 			path = TRZXKit;
-			sourceTree = "<group>";
-		};
-		713833031E4C1C02001D74B3 /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				713833831E4C34A3001D74B3 /* UIColor+APP.h */,
-				713833841E4C34A3001D74B3 /* UIColor+APP.m */,
-				713833061E4C1C02001D74B3 /* UIColor+TRZX.h */,
-				713833071E4C1C02001D74B3 /* UIColor+TRZX.m */,
-			);
-			path = UIColor;
-			sourceTree = "<group>";
-		};
-		713833081E4C1C02001D74B3 /* UIImage */ = {
-			isa = PBXGroup;
-			children = (
-				713833091E4C1C02001D74B3 /* UIImage+TRZX.h */,
-				7138330A1E4C1C02001D74B3 /* UIImage+TRZX.m */,
-			);
-			path = UIImage;
-			sourceTree = "<group>";
-		};
-		7138330B1E4C1C02001D74B3 /* UIViewController */ = {
-			isa = PBXGroup;
-			children = (
-				7138330C1E4C1C02001D74B3 /* FDFullscreenPopGesture */,
-				713833861E4C34A9001D74B3 /* UIViewController+APP.h */,
-				713833871E4C34A9001D74B3 /* UIViewController+APP.m */,
-				7138330F1E4C1C02001D74B3 /* UINavigationController+TRZX.h */,
-				713833101E4C1C02001D74B3 /* UINavigationController+TRZX.m */,
-				713833111E4C1C02001D74B3 /* UITabBarController+TRZX.h */,
-				713833121E4C1C02001D74B3 /* UITabBarController+TRZX.m */,
-				713833151E4C1C02001D74B3 /* UIViewController+BackButtonItemTitle.h */,
-				713833161E4C1C02001D74B3 /* UIViewController+BackButtonItemTitle.m */,
-				713833171E4C1C02001D74B3 /* UIViewController+TRZX.h */,
-				713833181E4C1C02001D74B3 /* UIViewController+TRZX.m */,
-			);
-			path = UIViewController;
-			sourceTree = "<group>";
-		};
-		7138330C1E4C1C02001D74B3 /* FDFullscreenPopGesture */ = {
-			isa = PBXGroup;
-			children = (
-				7138330D1E4C1C02001D74B3 /* UINavigationController+FDFullscreenPopGesture.h */,
-				7138330E1E4C1C02001D74B3 /* UINavigationController+FDFullscreenPopGesture.m */,
-			);
-			path = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
 		713833411E4C2481001D74B3 /* ViewControllers */ = {
@@ -285,23 +253,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				713833511E4C2481001D74B3 /* MainTabBar0ViewController.m in Sources */,
-				7138331B1E4C1C02001D74B3 /* UIImage+TRZX.m in Sources */,
+				7138339B1E4C3D69001D74B3 /* UIImage+TRZX.m in Sources */,
+				7138339C1E4C3D69001D74B3 /* UINavigationController+TRZX.m in Sources */,
+				7138339D1E4C3D69001D74B3 /* UITabBarController+TRZX.m in Sources */,
+				713833991E4C3D69001D74B3 /* UIColor+APP.m in Sources */,
+				7138339E1E4C3D69001D74B3 /* UIViewController+APP.m in Sources */,
 				713832EF1E4C1BEB001D74B3 /* AppDelegate.m in Sources */,
+				713833A01E4C3D69001D74B3 /* UIViewController+TRZX.m in Sources */,
+				7138339F1E4C3D69001D74B3 /* UIViewController+BackButtonItemTitle.m in Sources */,
 				713832EC1E4C1BEB001D74B3 /* main.m in Sources */,
+				7138339A1E4C3D69001D74B3 /* UIColor+TRZX.m in Sources */,
 				713833571E4C2481001D74B3 /* TRZXProjectListViewController.m in Sources */,
-				713833211E4C1C02001D74B3 /* UIViewController+TRZX.m in Sources */,
-				7138331D1E4C1C02001D74B3 /* UINavigationController+TRZX.m in Sources */,
+				713833A31E4C3D81001D74B3 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				713833521E4C2481001D74B3 /* MainTabBar1ViewController.m in Sources */,
-				713833881E4C34A9001D74B3 /* UIViewController+APP.m in Sources */,
-				7138331C1E4C1C02001D74B3 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				713833551E4C2481001D74B3 /* MainTabBarController.m in Sources */,
 				713833561E4C2481001D74B3 /* TRZXNavigationController.m in Sources */,
 				713833531E4C2481001D74B3 /* MainTabBar2ViewController.m in Sources */,
-				713833201E4C1C02001D74B3 /* UIViewController+BackButtonItemTitle.m in Sources */,
 				713833541E4C2481001D74B3 /* MainTabBar3ViewController.m in Sources */,
-				7138331E1E4C1C02001D74B3 /* UITabBarController+TRZX.m in Sources */,
-				7138331A1E4C1C02001D74B3 /* UIColor+TRZX.m in Sources */,
-				713833851E4C34A3001D74B3 /* UIColor+APP.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

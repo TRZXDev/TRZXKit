@@ -7,7 +7,7 @@
 //
 
 #import "UIViewController+APP.h"
-#import "UIImage+TRZX.h"
+//#import "UIImage+TRZX.h"
 #import "UIColor+APP.h"
 #import <objc/runtime.h>
 @implementation UIViewController(APP)
@@ -133,20 +133,20 @@
 //    self.navigationItem.rightBarButtonItem = rightItem;
 }
 - (void)setRightBarItemImage:(UIImage *)imgage title:(NSString *)str{
-    UIImage *img=[imgage trzx_imageTintedWithColor:[UIColor whiteColor]];
-    UIButton *leftButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [leftButton setFrame:CGRectMake(0, 0, 60, 25)];
-    [leftButton setImage:img forState:UIControlStateNormal];
-    [leftButton setImage:img forState:UIControlStateHighlighted];
-     [leftButton setTitle:str forState:UIControlStateNormal];
-    [leftButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [leftButton addTarget:self action:@selector(rightBarItemAction:)forControlEvents:UIControlEventTouchUpInside];
-
-    UIBarButtonItem *barButton = [[UIBarButtonItem alloc] initWithCustomView:leftButton];
-    UIBarButtonItem *negativeSpacer = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
-    
-    negativeSpacer.width = -15;
-    self.navigationItem.rightBarButtonItems = @[negativeSpacer,barButton];
+//    UIImage *img=[imgage trzx_imageTintedWithColor:[UIColor whiteColor]];
+//    UIButton *leftButton = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [leftButton setFrame:CGRectMake(0, 0, 60, 25)];
+//    [leftButton setImage:img forState:UIControlStateNormal];
+//    [leftButton setImage:img forState:UIControlStateHighlighted];
+//     [leftButton setTitle:str forState:UIControlStateNormal];
+//    [leftButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+//    [leftButton addTarget:self action:@selector(rightBarItemAction:)forControlEvents:UIControlEventTouchUpInside];
+//
+//    UIBarButtonItem *barButton = [[UIBarButtonItem alloc] initWithCustomView:leftButton];
+//    UIBarButtonItem *negativeSpacer = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
+//    
+//    negativeSpacer.width = -15;
+//    self.navigationItem.rightBarButtonItems = @[negativeSpacer,barButton];
 }
 
 #pragma mark 左右两侧NavBarItem事件相应
