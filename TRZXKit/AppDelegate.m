@@ -7,8 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "TRZXKitHeader.h"
-
+#import "TRZXKit.h"
 @interface AppDelegate ()
 
 @end

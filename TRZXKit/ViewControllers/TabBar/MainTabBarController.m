@@ -11,7 +11,7 @@
 #import "MainTabBar1ViewController.h"
 #import "MainTabBar2ViewController.h"
 #import "MainTabBar3ViewController.h"
-#import "TRZXKitHeader.h"
+#import "TRZXKit.h"
 @interface MainTabBarController ()
 
 @end

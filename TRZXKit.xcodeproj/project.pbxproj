@@ -71,6 +71,7 @@
 		713833981E4C3D69001D74B3 /* UIViewController+TRZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TRZX.m"; sourceTree = "<group>"; };
 		713833A11E4C3D81001D74B3 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		713833A21E4C3D81001D74B3 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		713833A41E4C5018001D74B3 /* TRZXKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +128,7 @@
 		713833011E4C1C02001D74B3 /* TRZXKit */ = {
 			isa = PBXGroup;
 			children = (
+				713833A41E4C5018001D74B3 /* TRZXKit.h */,
 				713833891E4C3D69001D74B3 /* UIColor+APP.h */,
 				7138338A1E4C3D69001D74B3 /* UIColor+APP.m */,
 				7138338B1E4C3D69001D74B3 /* UIColor+TRZX.h */,
