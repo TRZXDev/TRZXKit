@@ -26,6 +26,8 @@
 		713833551E4C2481001D74B3 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7138334C1E4C2481001D74B3 /* MainTabBarController.m */; };
 		713833561E4C2481001D74B3 /* TRZXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7138334E1E4C2481001D74B3 /* TRZXNavigationController.m */; };
 		713833571E4C2481001D74B3 /* TRZXProjectListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833501E4C2481001D74B3 /* TRZXProjectListViewController.m */; };
+		713833851E4C34A3001D74B3 /* UIColor+APP.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833841E4C34A3001D74B3 /* UIColor+APP.m */; };
+		713833881E4C34A9001D74B3 /* UIViewController+APP.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833871E4C34A9001D74B3 /* UIViewController+APP.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,10 @@
 		7138334E1E4C2481001D74B3 /* TRZXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXNavigationController.m; sourceTree = "<group>"; };
 		7138334F1E4C2481001D74B3 /* TRZXProjectListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectListViewController.h; sourceTree = "<group>"; };
 		713833501E4C2481001D74B3 /* TRZXProjectListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectListViewController.m; sourceTree = "<group>"; };
+		713833831E4C34A3001D74B3 /* UIColor+APP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+APP.h"; sourceTree = "<group>"; };
+		713833841E4C34A3001D74B3 /* UIColor+APP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+APP.m"; sourceTree = "<group>"; };
+		713833861E4C34A9001D74B3 /* UIViewController+APP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+APP.h"; sourceTree = "<group>"; };
+		713833871E4C34A9001D74B3 /* UIViewController+APP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+APP.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +139,8 @@
 		713833031E4C1C02001D74B3 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
+				713833831E4C34A3001D74B3 /* UIColor+APP.h */,
+				713833841E4C34A3001D74B3 /* UIColor+APP.m */,
 				713833061E4C1C02001D74B3 /* UIColor+TRZX.h */,
 				713833071E4C1C02001D74B3 /* UIColor+TRZX.m */,
 			);
@@ -152,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				7138330C1E4C1C02001D74B3 /* FDFullscreenPopGesture */,
+				713833861E4C34A9001D74B3 /* UIViewController+APP.h */,
+				713833871E4C34A9001D74B3 /* UIViewController+APP.m */,
 				7138330F1E4C1C02001D74B3 /* UINavigationController+TRZX.h */,
 				713833101E4C1C02001D74B3 /* UINavigationController+TRZX.m */,
 				713833111E4C1C02001D74B3 /* UITabBarController+TRZX.h */,
@@ -282,6 +292,7 @@
 				713833211E4C1C02001D74B3 /* UIViewController+TRZX.m in Sources */,
 				7138331D1E4C1C02001D74B3 /* UINavigationController+TRZX.m in Sources */,
 				713833521E4C2481001D74B3 /* MainTabBar1ViewController.m in Sources */,
+				713833881E4C34A9001D74B3 /* UIViewController+APP.m in Sources */,
 				7138331C1E4C1C02001D74B3 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				713833551E4C2481001D74B3 /* MainTabBarController.m in Sources */,
 				713833561E4C2481001D74B3 /* TRZXNavigationController.m in Sources */,
@@ -290,6 +301,7 @@
 				713833541E4C2481001D74B3 /* MainTabBar3ViewController.m in Sources */,
 				7138331E1E4C1C02001D74B3 /* UITabBarController+TRZX.m in Sources */,
 				7138331A1E4C1C02001D74B3 /* UIColor+TRZX.m in Sources */,
+				713833851E4C34A3001D74B3 /* UIColor+APP.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +423,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 487PQPPTGA;
 				INFOPLIST_FILE = TRZXKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mmwipo.com.TRZXKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 487PQPPTGA;
 				INFOPLIST_FILE = TRZXKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mmwipo.com.TRZXKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +462,7 @@
 				713833001E4C1BEB001D74B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
