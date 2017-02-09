@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		713832EC1E4C1BEB001D74B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 713832EB1E4C1BEB001D74B3 /* main.m */; };
+		713832EF1E4C1BEB001D74B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 713832EE1E4C1BEB001D74B3 /* AppDelegate.m */; };
+		713832F51E4C1BEB001D74B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713832F31E4C1BEB001D74B3 /* Main.storyboard */; };
+		713832F71E4C1BEB001D74B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713832F61E4C1BEB001D74B3 /* Assets.xcassets */; };
+		713832FA1E4C1BEB001D74B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713832F81E4C1BEB001D74B3 /* LaunchScreen.storyboard */; };
+		713833191E4C1C02001D74B3 /* UIColor+APP.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833051E4C1C02001D74B3 /* UIColor+APP.m */; };
+		7138331A1E4C1C02001D74B3 /* UIColor+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833071E4C1C02001D74B3 /* UIColor+TRZX.m */; };
+		7138331B1E4C1C02001D74B3 /* UIImage+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 7138330A1E4C1C02001D74B3 /* UIImage+TRZX.m */; };
+		7138331C1E4C1C02001D74B3 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7138330E1E4C1C02001D74B3 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		7138331D1E4C1C02001D74B3 /* UINavigationController+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833101E4C1C02001D74B3 /* UINavigationController+TRZX.m */; };
+		7138331E1E4C1C02001D74B3 /* UITabBarController+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833121E4C1C02001D74B3 /* UITabBarController+TRZX.m */; };
+		7138331F1E4C1C02001D74B3 /* UIViewController+APP.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833141E4C1C02001D74B3 /* UIViewController+APP.m */; };
+		713833201E4C1C02001D74B3 /* UIViewController+BackButtonItemTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833161E4C1C02001D74B3 /* UIViewController+BackButtonItemTitle.m */; };
+		713833211E4C1C02001D74B3 /* UIViewController+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833181E4C1C02001D74B3 /* UIViewController+TRZX.m */; };
+		713833301E4C1D07001D74B3 /* MainTabBar0ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833251E4C1D07001D74B3 /* MainTabBar0ViewController.m */; };
+		713833311E4C1D07001D74B3 /* MainTabBar1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833271E4C1D07001D74B3 /* MainTabBar1ViewController.m */; };
+		713833321E4C1D07001D74B3 /* MainTabBar2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833291E4C1D07001D74B3 /* MainTabBar2ViewController.m */; };
+		713833331E4C1D07001D74B3 /* MainTabBar3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7138332B1E4C1D07001D74B3 /* MainTabBar3ViewController.m */; };
+		713833341E4C1D07001D74B3 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7138332D1E4C1D07001D74B3 /* MainTabBarController.m */; };
+		713833351E4C1D07001D74B3 /* TRZXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7138332F1E4C1D07001D74B3 /* TRZXNavigationController.m */; };
+		713833381E4C1D16001D74B3 /* TRZXProjectListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833371E4C1D16001D74B3 /* TRZXProjectListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		713832E71E4C1BEB001D74B3 /* TRZXKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		713832EB1E4C1BEB001D74B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		713832ED1E4C1BEB001D74B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		713832EE1E4C1BEB001D74B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		713832F41E4C1BEB001D74B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		713832F61E4C1BEB001D74B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		713832F91E4C1BEB001D74B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		713832FB1E4C1BEB001D74B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		713833021E4C1C02001D74B3 /* TRZXKitHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXKitHeader.h; sourceTree = "<group>"; };
+		713833041E4C1C02001D74B3 /* UIColor+APP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+APP.h"; sourceTree = "<group>"; };
+		713833051E4C1C02001D74B3 /* UIColor+APP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+APP.m"; sourceTree = "<group>"; };
+		713833061E4C1C02001D74B3 /* UIColor+TRZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TRZX.h"; sourceTree = "<group>"; };
+		713833071E4C1C02001D74B3 /* UIColor+TRZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TRZX.m"; sourceTree = "<group>"; };
+		713833091E4C1C02001D74B3 /* UIImage+TRZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TRZX.h"; sourceTree = "<group>"; };
+		7138330A1E4C1C02001D74B3 /* UIImage+TRZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TRZX.m"; sourceTree = "<group>"; };
+		7138330D1E4C1C02001D74B3 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		7138330E1E4C1C02001D74B3 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		7138330F1E4C1C02001D74B3 /* UINavigationController+TRZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+TRZX.h"; sourceTree = "<group>"; };
+		713833101E4C1C02001D74B3 /* UINavigationController+TRZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+TRZX.m"; sourceTree = "<group>"; };
+		713833111E4C1C02001D74B3 /* UITabBarController+TRZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+TRZX.h"; sourceTree = "<group>"; };
+		713833121E4C1C02001D74B3 /* UITabBarController+TRZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+TRZX.m"; sourceTree = "<group>"; };
+		713833131E4C1C02001D74B3 /* UIViewController+APP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+APP.h"; sourceTree = "<group>"; };
+		713833141E4C1C02001D74B3 /* UIViewController+APP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+APP.m"; sourceTree = "<group>"; };
+		713833151E4C1C02001D74B3 /* UIViewController+BackButtonItemTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonItemTitle.h"; sourceTree = "<group>"; };
+		713833161E4C1C02001D74B3 /* UIViewController+BackButtonItemTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonItemTitle.m"; sourceTree = "<group>"; };
+		713833171E4C1C02001D74B3 /* UIViewController+TRZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TRZX.h"; sourceTree = "<group>"; };
+		713833181E4C1C02001D74B3 /* UIViewController+TRZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TRZX.m"; sourceTree = "<group>"; };
+		713833241E4C1D07001D74B3 /* MainTabBar0ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar0ViewController.h; sourceTree = "<group>"; };
+		713833251E4C1D07001D74B3 /* MainTabBar0ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar0ViewController.m; sourceTree = "<group>"; };
+		713833261E4C1D07001D74B3 /* MainTabBar1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar1ViewController.h; sourceTree = "<group>"; };
+		713833271E4C1D07001D74B3 /* MainTabBar1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar1ViewController.m; sourceTree = "<group>"; };
+		713833281E4C1D07001D74B3 /* MainTabBar2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar2ViewController.h; sourceTree = "<group>"; };
+		713833291E4C1D07001D74B3 /* MainTabBar2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar2ViewController.m; sourceTree = "<group>"; };
+		7138332A1E4C1D07001D74B3 /* MainTabBar3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar3ViewController.h; sourceTree = "<group>"; };
+		7138332B1E4C1D07001D74B3 /* MainTabBar3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar3ViewController.m; sourceTree = "<group>"; };
+		7138332C1E4C1D07001D74B3 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		7138332D1E4C1D07001D74B3 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		7138332E1E4C1D07001D74B3 /* TRZXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXNavigationController.h; sourceTree = "<group>"; };
+		7138332F1E4C1D07001D74B3 /* TRZXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXNavigationController.m; sourceTree = "<group>"; };
+		713833361E4C1D16001D74B3 /* TRZXProjectListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectListViewController.h; sourceTree = "<group>"; };
+		713833371E4C1D16001D74B3 /* TRZXProjectListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		713832E41E4C1BEB001D74B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		713832DE1E4C1BEB001D74B3 = {
+			isa = PBXGroup;
+			children = (
+				713832E91E4C1BEB001D74B3 /* TRZXKit */,
+				713832E81E4C1BEB001D74B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		713832E81E4C1BEB001D74B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				713832E71E4C1BEB001D74B3 /* TRZXKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		713832E91E4C1BEB001D74B3 /* TRZXKit */ = {
+			isa = PBXGroup;
+			children = (
+				713833011E4C1C02001D74B3 /* TRZXKit */,
+				713833221E4C1D07001D74B3 /* ViewControllers */,
+				713832ED1E4C1BEB001D74B3 /* AppDelegate.h */,
+				713832EE1E4C1BEB001D74B3 /* AppDelegate.m */,
+				713832F31E4C1BEB001D74B3 /* Main.storyboard */,
+				713832F61E4C1BEB001D74B3 /* Assets.xcassets */,
+				713832F81E4C1BEB001D74B3 /* LaunchScreen.storyboard */,
+				713832FB1E4C1BEB001D74B3 /* Info.plist */,
+				713832EA1E4C1BEB001D74B3 /* Supporting Files */,
+			);
+			path = TRZXKit;
+			sourceTree = "<group>";
+		};
+		713832EA1E4C1BEB001D74B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				713832EB1E4C1BEB001D74B3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		713833011E4C1C02001D74B3 /* TRZXKit */ = {
+			isa = PBXGroup;
+			children = (
+				713833021E4C1C02001D74B3 /* TRZXKitHeader.h */,
+				713833031E4C1C02001D74B3 /* UIColor */,
+				713833081E4C1C02001D74B3 /* UIImage */,
+				7138330B1E4C1C02001D74B3 /* UIViewController */,
+			);
+			path = TRZXKit;
+			sourceTree = "<group>";
+		};
+		713833031E4C1C02001D74B3 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				713833041E4C1C02001D74B3 /* UIColor+APP.h */,
+				713833051E4C1C02001D74B3 /* UIColor+APP.m */,
+				713833061E4C1C02001D74B3 /* UIColor+TRZX.h */,
+				713833071E4C1C02001D74B3 /* UIColor+TRZX.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		713833081E4C1C02001D74B3 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				713833091E4C1C02001D74B3 /* UIImage+TRZX.h */,
+				7138330A1E4C1C02001D74B3 /* UIImage+TRZX.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		7138330B1E4C1C02001D74B3 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7138330C1E4C1C02001D74B3 /* FDFullscreenPopGesture */,
+				7138330F1E4C1C02001D74B3 /* UINavigationController+TRZX.h */,
+				713833101E4C1C02001D74B3 /* UINavigationController+TRZX.m */,
+				713833111E4C1C02001D74B3 /* UITabBarController+TRZX.h */,
+				713833121E4C1C02001D74B3 /* UITabBarController+TRZX.m */,
+				713833131E4C1C02001D74B3 /* UIViewController+APP.h */,
+				713833141E4C1C02001D74B3 /* UIViewController+APP.m */,
+				713833151E4C1C02001D74B3 /* UIViewController+BackButtonItemTitle.h */,
+				713833161E4C1C02001D74B3 /* UIViewController+BackButtonItemTitle.m */,
+				713833171E4C1C02001D74B3 /* UIViewController+TRZX.h */,
+				713833181E4C1C02001D74B3 /* UIViewController+TRZX.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		7138330C1E4C1C02001D74B3 /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				7138330D1E4C1C02001D74B3 /* UINavigationController+FDFullscreenPopGesture.h */,
+				7138330E1E4C1C02001D74B3 /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		713833221E4C1D07001D74B3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				713833231E4C1D07001D74B3 /* TabBar */,
+				713833361E4C1D16001D74B3 /* TRZXProjectListViewController.h */,
+				713833371E4C1D16001D74B3 /* TRZXProjectListViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		713833231E4C1D07001D74B3 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				713833241E4C1D07001D74B3 /* MainTabBar0ViewController.h */,
+				713833251E4C1D07001D74B3 /* MainTabBar0ViewController.m */,
+				713833261E4C1D07001D74B3 /* MainTabBar1ViewController.h */,
+				713833271E4C1D07001D74B3 /* MainTabBar1ViewController.m */,
+				713833281E4C1D07001D74B3 /* MainTabBar2ViewController.h */,
+				713833291E4C1D07001D74B3 /* MainTabBar2ViewController.m */,
+				7138332A1E4C1D07001D74B3 /* MainTabBar3ViewController.h */,
+				7138332B1E4C1D07001D74B3 /* MainTabBar3ViewController.m */,
+				7138332C1E4C1D07001D74B3 /* MainTabBarController.h */,
+				7138332D1E4C1D07001D74B3 /* MainTabBarController.m */,
+				7138332E1E4C1D07001D74B3 /* TRZXNavigationController.h */,
+				7138332F1E4C1D07001D74B3 /* TRZXNavigationController.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		713832E61E4C1BEB001D74B3 /* TRZXKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713832FE1E4C1BEB001D74B3 /* Build configuration list for PBXNativeTarget "TRZXKit" */;
+			buildPhases = (
+				713832E31E4C1BEB001D74B3 /* Sources */,
+				713832E41E4C1BEB001D74B3 /* Frameworks */,
+				713832E51E4C1BEB001D74B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRZXKit;
+			productName = TRZXKit;
+			productReference = 713832E71E4C1BEB001D74B3 /* TRZXKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		713832DF1E4C1BEB001D74B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TRZX;
+				TargetAttributes = {
+					713832E61E4C1BEB001D74B3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 487PQPPTGA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 713832E21E4C1BEB001D74B3 /* Build configuration list for PBXProject "TRZXKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 713832DE1E4C1BEB001D74B3;
+			productRefGroup = 713832E81E4C1BEB001D74B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				713832E61E4C1BEB001D74B3 /* TRZXKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		713832E51E4C1BEB001D74B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713832FA1E4C1BEB001D74B3 /* LaunchScreen.storyboard in Resources */,
+				713832F71E4C1BEB001D74B3 /* Assets.xcassets in Resources */,
+				713832F51E4C1BEB001D74B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		713832E31E4C1BEB001D74B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7138331F1E4C1C02001D74B3 /* UIViewController+APP.m in Sources */,
+				7138331B1E4C1C02001D74B3 /* UIImage+TRZX.m in Sources */,
+				713833351E4C1D07001D74B3 /* TRZXNavigationController.m in Sources */,
+				713833191E4C1C02001D74B3 /* UIColor+APP.m in Sources */,
+				713832EF1E4C1BEB001D74B3 /* AppDelegate.m in Sources */,
+				713832EC1E4C1BEB001D74B3 /* main.m in Sources */,
+				713833211E4C1C02001D74B3 /* UIViewController+TRZX.m in Sources */,
+				713833311E4C1D07001D74B3 /* MainTabBar1ViewController.m in Sources */,
+				713833321E4C1D07001D74B3 /* MainTabBar2ViewController.m in Sources */,
+				713833331E4C1D07001D74B3 /* MainTabBar3ViewController.m in Sources */,
+				713833381E4C1D16001D74B3 /* TRZXProjectListViewController.m in Sources */,
+				713833341E4C1D07001D74B3 /* MainTabBarController.m in Sources */,
+				7138331D1E4C1C02001D74B3 /* UINavigationController+TRZX.m in Sources */,
+				7138331C1E4C1C02001D74B3 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				713833201E4C1C02001D74B3 /* UIViewController+BackButtonItemTitle.m in Sources */,
+				7138331E1E4C1C02001D74B3 /* UITabBarController+TRZX.m in Sources */,
+				713833301E4C1D07001D74B3 /* MainTabBar0ViewController.m in Sources */,
+				7138331A1E4C1C02001D74B3 /* UIColor+TRZX.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		713832F31E4C1BEB001D74B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				713832F41E4C1BEB001D74B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		713832F81E4C1BEB001D74B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				713832F91E4C1BEB001D74B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		713832FC1E4C1BEB001D74B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		713832FD1E4C1BEB001D74B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		713832FF1E4C1BEB001D74B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = TRZXKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mmwipo.com.TRZXKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		713833001E4C1BEB001D74B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = TRZXKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mmwipo.com.TRZXKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		713832E21E4C1BEB001D74B3 /* Build configuration list for PBXProject "TRZXKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713832FC1E4C1BEB001D74B3 /* Debug */,
+				713832FD1E4C1BEB001D74B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		713832FE1E4C1BEB001D74B3 /* Build configuration list for PBXNativeTarget "TRZXKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713832FF1E4C1BEB001D74B3 /* Debug */,
+				713833001E4C1BEB001D74B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 713832DF1E4C1BEB001D74B3 /* Project object */;
+}
