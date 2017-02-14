@@ -28,6 +28,7 @@
 		7138339F1E4C3D69001D74B3 /* UIViewController+BackButtonItemTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833961E4C3D69001D74B3 /* UIViewController+BackButtonItemTitle.m */; };
 		713833A01E4C3D69001D74B3 /* UIViewController+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833981E4C3D69001D74B3 /* UIViewController+TRZX.m */; };
 		713833A31E4C3D81001D74B3 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833A21E4C3D81001D74B3 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		7163BFC41E518C370012AFE9 /* UIView+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 7163BFC31E518C370012AFE9 /* UIView+TRZX.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,8 @@
 		713833A11E4C3D81001D74B3 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		713833A21E4C3D81001D74B3 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		713833A41E4C5018001D74B3 /* TRZXKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXKit.h; sourceTree = "<group>"; };
+		7163BFC21E518C370012AFE9 /* UIView+TRZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TRZX.h"; sourceTree = "<group>"; };
+		7163BFC31E518C370012AFE9 /* UIView+TRZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TRZX.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				713833A41E4C5018001D74B3 /* TRZXKit.h */,
+				7163BFC21E518C370012AFE9 /* UIView+TRZX.h */,
+				7163BFC31E518C370012AFE9 /* UIView+TRZX.m */,
 				713833891E4C3D69001D74B3 /* UIColor+APP.h */,
 				7138338A1E4C3D69001D74B3 /* UIColor+APP.m */,
 				7138338B1E4C3D69001D74B3 /* UIColor+TRZX.h */,
@@ -262,6 +267,7 @@
 				713833A01E4C3D69001D74B3 /* UIViewController+TRZX.m in Sources */,
 				7138339F1E4C3D69001D74B3 /* UIViewController+BackButtonItemTitle.m in Sources */,
 				713832EC1E4C1BEB001D74B3 /* main.m in Sources */,
+				7163BFC41E518C370012AFE9 /* UIView+TRZX.m in Sources */,
 				7138339A1E4C3D69001D74B3 /* UIColor+TRZX.m in Sources */,
 				713833571E4C2481001D74B3 /* TRZXProjectListViewController.m in Sources */,
 				713833A31E4C3D81001D74B3 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,

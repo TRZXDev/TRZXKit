@@ -7,6 +7,7 @@
 #import "UIColor+APP.h"
 #import "UIColor+TRZX.h"
 #import "UIImage+TRZX.h"
+#import "UIView+TRZX.h"
 #import "UIViewController+APP.h"
 
 
