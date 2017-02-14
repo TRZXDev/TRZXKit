@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'TRZXKit'
   s.summary      = 'Asynchronous image loading framework.'
-  s.version      = ‘0.0.5’
+  s.version      = '0.0.5'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'fpli' => '952241861@qq.com' }
   s.homepage     = 'https://github.com/TRZXDev/TRZXKit'
