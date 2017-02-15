@@ -55,6 +55,8 @@
 {
     //行被选中后，自动变回反选状态的方法
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"我是诚实" message:@"我的问题不能少于30个字" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:nil];
+    [alert show];
 
 
 }
