@@ -17,7 +17,7 @@
 }
 //导航条颜色
 + (UIColor *)trzx_NavigationBarColor{
-    return [UIColor trzx_colorWithHexString:@"#323542"];//#1aa7f2 2da4f6
+    return [UIColor trzx_colorWithHexString:@"#FFFFFF"];//#1aa7f2 2da4f6
 }
 
 //trzx_蓝色
@@ -58,7 +58,7 @@
 }
 //trzx_导航栏文字颜色
 + (UIColor *)trzx_NavTitleColor{
-    return [UIColor trzx_colorWithHexString:@"#1FB922"];
+    return [UIColor trzx_colorWithHexString:@"#525252"];
 }
 //trzx_标题颜色
 + (UIColor *)trzx_TitleColor{

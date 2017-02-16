@@ -22,20 +22,35 @@
 }
 
 -(void)appConfig{
+
+
+    //Nav文字属性
     NSShadow *shadow = [[NSShadow alloc] init];
     shadow.shadowColor = [UIColor colorWithWhite:0.0f alpha:1.0f];
     shadow.shadowOffset = CGSizeMake(0, 0);
-    //[[UIApplication sharedApplication]registerNotifications];
     [[UINavigationBar appearance] setTitleTextAttributes:@{
-                                                           NSForegroundColorAttributeName: [UIColor whiteColor],
-                                                           NSShadowAttributeName: shadow,
-                                                           NSFontAttributeName: [UIFont fontWithName:@"Arial-BoldMT" size:17.0f]
+                                                           NSForegroundColorAttributeName: [UIColor trzx_NavTitleColor],
+                                                           NSShadowAttributeName: [[NSShadow alloc] init],
+                                                           NSFontAttributeName: [UIFont boldSystemFontOfSize:17]
                                                            }];
 
-    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
-    [[UINavigationBar appearance] setBarTintColor:[UIColor trzx_NavigationBarColor]];
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
 
+    //Nav Item文字属性
+    [[UIBarButtonItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor trzx_NavTitleColor],NSForegroundColorAttributeName, [UIFont systemFontOfSize:17],NSFontAttributeName , nil] forState:0];
+
+    // 标题颜色
+    [[UINavigationBar appearance] setTintColor:[UIColor  trzx_NavTitleColor]];
+
+    // Nav背景颜色
+    [[UINavigationBar appearance] setBarTintColor:[UIColor trzx_NavigationBarColor]];
+
+
+    // 返回按钮图片
+    [[UINavigationBar appearance] setBackIndicatorImage:[UIImage imageNamed:@"btn_back"]];
+    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"btn_back"]];
+
+
+    self.window.backgroundColor = [UIColor whiteColor]; // 解决 push/pop 导航栏黑色阴影问题
     
 }
 

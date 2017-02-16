@@ -7,6 +7,7 @@
 //
 
 #import "UIViewController+BackButtonItemTitle.h"
+#import "UIColor+APP.h"
 
 @implementation UIViewController (BackButtonItemTitle)
 
@@ -34,11 +35,9 @@
     UIBarButtonItem *backButtonItem = [[UIBarButtonItem alloc] initWithTitle:backButtonTitle
                                                                        style:UIBarButtonItemStylePlain
                                                                       target:nil action:nil];
-    
+
+
     viewController.navigationItem.backBarButtonItem = backButtonItem;
-    [viewController.navigationController.navigationBar  setBackIndicatorImage:[UIImage imageNamed:@"nav_leftBarImage_icon"]];
-    [viewController.navigationController.navigationBar setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"nav_leftBarImage_icon"]];
-    //[viewController.navigationItem.backBarButtonItem setImage:[UIImage imageNamed:@"nav_leftBarImage_icon"]];
     return YES;
 }
 

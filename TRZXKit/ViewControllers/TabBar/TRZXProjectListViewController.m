@@ -7,7 +7,7 @@
 //
 
 #import "TRZXProjectListViewController.h"
-
+#import "MainTabBar0ViewController.h"
 @interface TRZXProjectListViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, copy) NSArray *dataSource;
@@ -54,9 +54,10 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //行被选中后，自动变回反选状态的方法
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"我是诚实" message:@"我的问题不能少于30个字" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:nil];
-    [alert show];
+
+    MainTabBar0ViewController *vc = [[MainTabBar0ViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:true];
+
 
 
 }

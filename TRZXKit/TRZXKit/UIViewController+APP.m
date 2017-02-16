@@ -13,6 +13,7 @@
 @implementation UIViewController(APP)
 
 
+/* 这个黑魔法不能用 会影响系统其它控件
 
 + (void)load {
     static dispatch_once_t onceToken;
@@ -32,11 +33,11 @@
     //    self.view.backgroundColor = WXGGlobalBackgroundColor;
     //    NSLog(@"%@ loaded", self);
     if (![self isKindOfClass:NSClassFromString(@"UIInputWindowController")]) {
-        self.view.backgroundColor = [UIColor trzx_BackGroundColor];
+        self.view.backgroundColor = [UIColor trzx_BackGroundColor];  // 这个黑魔法不能用 会影响系统其它控件
     }
 }
 
-
+*/
 
 
 - (void)setLeftBarItemWithString:(NSString*)string

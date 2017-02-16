@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    self.title = @"我是想买涉及大来得及";
 
     // Do any additional setup after loading the view.
 }
