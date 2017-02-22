@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = 'TRZXKit'
   s.summary      = 'Asynchronous image loading framework.'
-  s.version      = '0.0.8'
-  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.version      = '0.0.9'
+  s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
   s.authors      = { 'fpli' => '952241861@qq.com' }
   s.homepage     = 'https://github.com/TRZXDev/TRZXKit'
   s.platform     = :ios, '8.0'

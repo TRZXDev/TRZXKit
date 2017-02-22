@@ -29,6 +29,7 @@
 		713833A31E4C3D81001D74B3 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833A21E4C3D81001D74B3 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		714B4F641E541D250006E438 /* UIViewController+APP.m in Sources */ = {isa = PBXBuildFile; fileRef = 714B4F631E541D250006E438 /* UIViewController+APP.m */; };
 		7163BFC41E518C370012AFE9 /* UIView+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 7163BFC31E518C370012AFE9 /* UIView+TRZX.m */; };
+		718EBDAF1E5D6970000FD589 /* UIFont+APP.m in Sources */ = {isa = PBXBuildFile; fileRef = 718EBDAE1E5D6970000FD589 /* UIFont+APP.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,8 @@
 		714B4F631E541D250006E438 /* UIViewController+APP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+APP.m"; sourceTree = "<group>"; };
 		7163BFC21E518C370012AFE9 /* UIView+TRZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TRZX.h"; sourceTree = "<group>"; };
 		7163BFC31E518C370012AFE9 /* UIView+TRZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TRZX.m"; sourceTree = "<group>"; };
+		718EBDAD1E5D6970000FD589 /* UIFont+APP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+APP.h"; sourceTree = "<group>"; };
+		718EBDAE1E5D6970000FD589 /* UIFont+APP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+APP.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,8 @@
 		713833011E4C1C02001D74B3 /* TRZXKit */ = {
 			isa = PBXGroup;
 			children = (
+				718EBDAD1E5D6970000FD589 /* UIFont+APP.h */,
+				718EBDAE1E5D6970000FD589 /* UIFont+APP.m */,
 				714B4F621E541D250006E438 /* UIViewController+APP.h */,
 				714B4F631E541D250006E438 /* UIViewController+APP.m */,
 				713833A41E4C5018001D74B3 /* TRZXKit.h */,
@@ -265,6 +270,7 @@
 				713832EF1E4C1BEB001D74B3 /* AppDelegate.m in Sources */,
 				713833A01E4C3D69001D74B3 /* UIViewController+TRZX.m in Sources */,
 				7138339F1E4C3D69001D74B3 /* UIViewController+BackButtonItemTitle.m in Sources */,
+				718EBDAF1E5D6970000FD589 /* UIFont+APP.m in Sources */,
 				713832EC1E4C1BEB001D74B3 /* main.m in Sources */,
 				7163BFC41E518C370012AFE9 /* UIView+TRZX.m in Sources */,
 				7138339A1E4C3D69001D74B3 /* UIColor+TRZX.m in Sources */,
