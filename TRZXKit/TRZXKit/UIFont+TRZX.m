@@ -1,5 +1,5 @@
 //
-//  UIFont+YYAdd.h
+//  UIFont+YYAdd.m
 //  YYKit <https://github.com/ibireme/YYKit>
 //
 //  Created by ibireme on 14/5/11.
@@ -9,28 +9,32 @@
 //  LICENSE file in the root directory of this source tree.
 //
 
-#import <UIKit/UIKit.h>
+#import "UIFont+TRZX.h"
 
-
-@interface UIFont (APP)
+@implementation UIFont (TRZX)
 
 /**
  *  17号字体
  */
-+ (UIFont *)trzx_bigFont;
++ (UIFont *)trzx_bigFont{
+    return [UIFont systemFontOfSize:17];
+}
 
 
 /**
  *  14号字体
  */
-+ (UIFont *)trzx_middleFont;
++ (UIFont *)trzx_middleFont{
+    return [UIFont systemFontOfSize:14];
+}
 
 
 /**
  *  12号字体
  */
-+ (UIFont *)trzx_smallFont;
-
++ (UIFont *)trzx_smallFont{
+    return [UIFont systemFontOfSize:12];
+}
 
 @end
 
