@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'TRZXKit'
   s.summary      = 'Asynchronous image loading framework.'
-  s.version      = '0.0.9'
+  s.version      = '0.0.10'
   s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
   s.authors      = { 'fpli' => '952241861@qq.com' }
   s.homepage     = 'https://github.com/TRZXDev/TRZXKit'
@@ -11,5 +11,11 @@ Pod::Spec.new do |s|
   
   s.requires_arc = true
   s.source_files = 'TRZXKit/TRZXKit/*.{h,m}'
+
+
+  s.subspec 'Config' do |ss|
+    ss.source_files = 'TRZXShare/TRZXShare/Config/*.{h,m}'
+  end
+
 
 end
