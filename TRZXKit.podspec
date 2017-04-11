@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'TRZXKit'
   s.summary      = 'Asynchronous image loading framework.'
-  s.version      = '0.0.10'
+  s.version      = '0.0.11'
   s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
   s.authors      = { 'fpli' => '952241861@qq.com' }
   s.homepage     = 'https://github.com/TRZXDev/TRZXKit'
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
 
   s.subspec 'Config' do |ss|
-    ss.source_files = 'TRZXShare/TRZXShare/Config/*.{h,m}'
+    ss.source_files = 'TRZXKit/TRZXKit/Config/*.{h,m}'
   end
 
 
