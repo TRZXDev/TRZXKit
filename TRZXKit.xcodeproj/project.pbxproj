@@ -21,6 +21,7 @@
 		713833A01E4C3D69001D74B3 /* UIViewController+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833981E4C3D69001D74B3 /* UIViewController+TRZX.m */; };
 		713833A31E4C3D81001D74B3 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 713833A21E4C3D81001D74B3 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		7163BFC41E518C370012AFE9 /* UIView+TRZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 7163BFC31E518C370012AFE9 /* UIView+TRZX.m */; };
+		71806E681E9F6E9C003BCC50 /* TRZXRestrictionInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 71806E671E9F6E9C003BCC50 /* TRZXRestrictionInput.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,8 @@
 		713833A41E4C5018001D74B3 /* TRZXKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXKit.h; sourceTree = "<group>"; };
 		7163BFC21E518C370012AFE9 /* UIView+TRZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TRZX.h"; sourceTree = "<group>"; };
 		7163BFC31E518C370012AFE9 /* UIView+TRZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TRZX.m"; sourceTree = "<group>"; };
+		71806E661E9F6E9C003BCC50 /* TRZXRestrictionInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXRestrictionInput.h; sourceTree = "<group>"; };
+		71806E671E9F6E9C003BCC50 /* TRZXRestrictionInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXRestrictionInput.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				713833A41E4C5018001D74B3 /* TRZXKit.h */,
+				71806E661E9F6E9C003BCC50 /* TRZXRestrictionInput.h */,
+				71806E671E9F6E9C003BCC50 /* TRZXRestrictionInput.m */,
 				712797641E9CC4FE00D3F994 /* UIColor+TRZX.h */,
 				712797651E9CC4FE00D3F994 /* UIColor+TRZX.m */,
 				712797661E9CC4FE00D3F994 /* UIFont+TRZX.h */,
@@ -212,6 +217,7 @@
 				7138339B1E4C3D69001D74B3 /* UIImage+TRZX.m in Sources */,
 				712797681E9CC4FE00D3F994 /* UIColor+TRZX.m in Sources */,
 				7138339C1E4C3D69001D74B3 /* UINavigationController+TRZX.m in Sources */,
+				71806E681E9F6E9C003BCC50 /* TRZXRestrictionInput.m in Sources */,
 				7138339D1E4C3D69001D74B3 /* UITabBarController+TRZX.m in Sources */,
 				712797691E9CC4FE00D3F994 /* UIFont+TRZX.m in Sources */,
 				713832EF1E4C1BEB001D74B3 /* AppDelegate.m in Sources */,
